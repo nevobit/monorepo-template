@@ -50,6 +50,7 @@ const LINKS = [
 ];
 
 export default function Page(): JSX.Element {
+  
   return (
     <main className={styles.main}>
       <div className={styles.description}>
