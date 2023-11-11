@@ -1,17 +1,25 @@
 {
   "private": true,
+  "engines": {
+    "node": ">=v18.16.0"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "dotenv -- turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "turbo release --concurrency=1",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "dotenv-cli": "^7.3.0",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "husky": "^8.0.3"
   },
   "packageManager": "pnpm@8.6.10",
   "name": "turborepo-template"
