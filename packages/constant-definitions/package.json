@@ -8,5 +8,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "tslib": "~2.6.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.0.0"
+  }
 }

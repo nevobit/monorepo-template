@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@template/ui",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -16,7 +16,7 @@
     "eslint-config-custom": "workspace:*",
     "react": "^18.2.0",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.2"
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "react-redux": "^8.1.3"

@@ -1,7 +1,7 @@
 import pino from 'pino';
 
 export const logger = pino({
-  redact: [''],
+  redact: ['MONGO'],
   level: 'debug',
   trasnport: {
     target: 'pino-pretty'
